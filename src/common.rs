@@ -894,7 +894,7 @@ pub fn get_api_server(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "http://rd.wooomooo.com".to_owned()
+    "http://rd.wooomooo.com:7000".to_owned()
 }
 
 pub fn get_audit_server(api: String, custom: String, typ: String) -> String {
